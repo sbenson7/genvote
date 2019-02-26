@@ -214,3 +214,25 @@
         }
     }
 }
+
+
+.why-matters {
+    background: $baseColor;
+    text-align: center;
+    h1 {
+        color: $white;
+        margin-bottom: 20px;
+    }
+    p {
+        color: $white;
+        max-width: 680px;
+        margin: auto;
+    }
+    .main_btn2 {
+        &:hover {
+            background: #ffffff;
+            color: #222222;
+        }
+    }
+}
+
